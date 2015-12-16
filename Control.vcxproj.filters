@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="_core">
+      <UniqueIdentifier>{f1fbaacf-77f4-4ab0-af48-10e4dd651786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries">
+      <UniqueIdentifier>{557f83ed-656d-4343-ab02-6151a438dd4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Stepper">
+      <UniqueIdentifier>{75c7627b-761e-4357-b94d-f607eabe07f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Stepper\src">
+      <UniqueIdentifier>{c960fba8-e97f-4cf7-99ed-23226b9bdb6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SoftwareSerial">
+      <UniqueIdentifier>{ef737808-240c-46ae-83f5-5f1e49fa82a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\EEPROM">
+      <UniqueIdentifier>{42369549-7d8e-43c0-9792-3dbdcde16886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\EnableInterrupt">
+      <UniqueIdentifier>{28837ef1-5baa-4898-8fde-6d78dde84fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\EnableInterrupt\utility">
+      <UniqueIdentifier>{293c506a-1022-48c3-a300-9607a8914aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\U8glib">
+      <UniqueIdentifier>{e66aee88-5bc8-4b43-800f-47fb09ce209a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\U8glib\utility">
+      <UniqueIdentifier>{94cd39d8-9e64-4927-8a6b-7f08d0f9b216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Wire">
+      <UniqueIdentifier>{ece57a2b-0bfb-4dfb-abb1-66937ce5e7d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Wire\utility">
+      <UniqueIdentifier>{9c07dcdb-16e9-48ef-b48b-20b0078d21f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Control.ino" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.S">
+      <Filter>_core</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="switches.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\Arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\binary.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\Client.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\IPAddress.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\new.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\Print.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\Printable.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\Server.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\Stream.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\Udp.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\USBAPI.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\USBCore.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\USBDesc.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\WCharacter.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\wiring_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\WString.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\variants\mega\pins_arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\Stepper\src\Stepper.h">
+      <Filter>_libraries\Stepper\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\SoftwareSerial.h">
+      <Filter>_libraries\SoftwareSerial</Filter>
+    </ClInclude>
+    <ClInclude Include="Counters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="commands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\libraries\EEPROM\EEPROM.h">
+      <Filter>_libraries\EEPROM</Filter>
+    </ClInclude>
+    <ClInclude Include="motors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\EnableInterrupt.h">
+      <Filter>_libraries\EnableInterrupt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_External1284.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_External2560.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_External328.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_ExternalLeonardo.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_ExternalTiny24.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_ExternalTiny25.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_PinChange1284.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_PinChange2560.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_PinChange328.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_PinChangeLeonardo.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_PinChangeTiny24.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_PinChangeTiny25.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_pindefs_speed.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_porta_speed.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_portb_speed.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_portc_speed.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_portd_speed.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_portj_speed.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\EnableInterrupt\utility\ei_portk_speed.h">
+      <Filter>_libraries\EnableInterrupt\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\U8glib.h">
+      <Filter>_libraries\U8glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g.h">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Carr\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\libraries\Wire\Wire.h">
+      <Filter>_libraries\Wire</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Carr\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\libraries\Wire\utility\twi.h">
+      <Filter>_libraries\Wire\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.Control.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="switches.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\abi.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\CDC.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial0.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial1.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial2.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial3.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\HID.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\hooks.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\IPAddress.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\main.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\new.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\Print.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\Stream.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\Tone.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\USBCore.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\WInterrupts.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\wiring.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\wiring_analog.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\wiring_digital.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\wiring_shift.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\WMath.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\cores\arduino\WString.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\Stepper\src\Stepper.cpp">
+      <Filter>_libraries\Stepper\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\SoftwareSerial.cpp">
+      <Filter>_libraries\SoftwareSerial</Filter>
+    </ClCompile>
+    <ClCompile Include="Counters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="commands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\U8glib.cpp">
+      <Filter>_libraries\U8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\chessengine.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_bitmap.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_circle.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_clip.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_api.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_api_16gr.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_attiny85_hw_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_common.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_fast_parallel.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_hw_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_hw_usart_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_no_en_parallel.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_parallel.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_port_d_wr.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_ssd_i2c.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_st7920_custom.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_st7920_hw_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_st7920_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_std_sw_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_sw_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_t6963.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_arduino_uc_i2c.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_atmega_hw_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_atmega_parallel.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_atmega_st7920_hw_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_atmega_st7920_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_atmega_sw_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_i2c.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_io.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_msp430_hw_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_null.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_raspberrypi_hw_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_raspberrypi_ssd_i2c.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_com_std_sw_spi.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_cursor.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_delay.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_a2_micro_printer.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_flipdisc_2x7.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_gprof.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ht1632.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ili9325d_320x240.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ks0108_128x64.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_lc7981_160x80.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_lc7981_240x128.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_lc7981_240x64.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_lc7981_320x64.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ld7032_60x32.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_null.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_pcd8544_84x48.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_pcf8812_96x65.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_sbn1661_122x32.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ssd1306_128x32.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ssd1306_128x64.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ssd1306_64x48.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ssd1309_128x64.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ssd1322_nhd31oled_bw.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ssd1322_nhd31oled_gr.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ssd1325_nhd27oled_bw.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ssd1325_nhd27oled_bw_new.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ssd1325_nhd27oled_gr.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ssd1325_nhd27oled_gr_new.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ssd1327_96x96_gr.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ssd1351_128x128.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_ssd1353_160x128.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_st7565_64128n.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_st7565_dogm128.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_st7565_dogm132.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_st7565_lm6059.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_st7565_lm6063.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_st7565_nhd_c12832.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_st7565_nhd_c12864.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_st7687_c144mvgd.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_st7920_128x64.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_st7920_192x32.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_st7920_202x32.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_t6963_128x128.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_t6963_128x64.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_t6963_240x128.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_t6963_240x64.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_tls8204_84x48.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_uc1601_c128032.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_uc1608_240x128.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_uc1608_240x64.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_uc1610_dogxl160.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_uc1611_dogm240.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_uc1611_dogxl240.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_uc1701_dogs102.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_dev_uc1701_mini12864.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_ellipse.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_font.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_font_data.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_line.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_ll_api.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_page.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pb.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pb14v1.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pb16h1.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pb16h2.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pb16v1.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pb16v2.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pb32h1.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pb8h1.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pb8h1f.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pb8h2.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pb8h8.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pb8v1.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pb8v2.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pbxh16.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_pbxh24.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_polygon.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_rect.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_rot.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_scale.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_state.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_u16toa.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_u8toa.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Program Files (x86)\Arduino_1.6.5\Arduino\libraries\U8glib\utility\u8g_virtual_screen.c">
+      <Filter>_libraries\U8glib\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Carr\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\libraries\Wire\Wire.cpp">
+      <Filter>_libraries\Wire</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Carr\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\libraries\Wire\utility\twi.c">
+      <Filter>_libraries\Wire\utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
